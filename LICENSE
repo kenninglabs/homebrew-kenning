@@ -1,0 +1,106 @@
+Kenning End User License Agreement
+
+Copyright (c) 2026 Kenning Labs. All rights reserved.
+
+This software is proprietary. It is licensed, not sold. By installing, copying,
+or using it you agree to the terms below. If you do not agree, do not install
+or use it.
+
+1. DEFINITIONS
+
+   "Software" means the Kenning command-line tool, the Kenning daemon, and the
+   Kenning desktop application, in executable form, together with any
+   documentation, configuration, and data files distributed with them.
+
+   "Licensor" means Kenning Labs.
+
+   "You" means the individual or entity exercising the rights granted here.
+
+2. GRANT OF LICENSE
+
+   Licensor grants You a non-exclusive, non-transferable, revocable license to
+   install and use the Software, in executable form only, for Your own internal
+   or personal purposes, on any number of devices You own or control.
+
+   This grant covers use of the Software as distributed. It grants no rights in
+   the Software's source code, which is not distributed and is not part of this
+   license.
+
+3. RESTRICTIONS
+
+   Except to the extent this restriction is unenforceable under applicable law,
+   You may not:
+
+   (a) sell, rent, lease, sublicense, or otherwise distribute the Software, or
+       make it available to third parties as a hosted or managed service;
+
+   (b) reverse engineer, decompile, or disassemble the Software, or otherwise
+       attempt to derive its source code;
+
+   (c) modify the Software, or create derivative works based on it;
+
+   (d) remove, obscure, or alter any copyright, trademark, or other proprietary
+       notice contained in or displayed by the Software;
+
+   (e) use the Software to develop a product that competes with it.
+
+4. OWNERSHIP
+
+   The Software is and remains the property of Licensor. This license transfers
+   no ownership and no intellectual property rights beyond the limited use
+   rights expressly granted in Section 2. All rights not expressly granted are
+   reserved.
+
+5. THIRD-PARTY COMPONENTS
+
+   The Software incorporates third-party open source components, each licensed
+   under its own terms. Those terms govern those components and, where they
+   conflict with this Agreement, take precedence with respect to the component
+   they cover. Attribution and license texts for those components are provided
+   in the THIRD-PARTY-NOTICES file distributed with the Software.
+
+6. DATA
+
+   The Software indexes source code and documents locally and stores the
+   resulting data on Your device. Licensor does not receive that content. Any
+   separate telemetry or account functionality is governed by the notices and
+   controls presented within the Software itself.
+
+7. TERM AND TERMINATION
+
+   This license is effective until terminated. It terminates automatically and
+   without notice if You breach any of its terms. On termination You must stop
+   using the Software and destroy all copies in Your possession. Sections 4, 7,
+   8, 9, and 10 survive termination.
+
+8. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. LICENSOR DOES
+   NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT ITS
+   OUTPUT WILL BE ACCURATE OR COMPLETE.
+
+9. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+   EXEMPLARY DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR BUSINESS, ARISING
+   OUT OF OR RELATED TO THE SOFTWARE OR THIS AGREEMENT, ON ANY THEORY OF
+   LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. LICENSOR'S
+   TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE
+   SOFTWARE, OR TEN US DOLLARS (USD 10) IF YOU PAID NOTHING.
+
+   Nothing in this Agreement excludes or limits liability that cannot lawfully
+   be excluded or limited.
+
+10. GENERAL
+
+   This Agreement is governed by the laws of India, without regard to its
+   conflict of laws rules. If any provision is held unenforceable, it shall be
+   modified to the minimum extent necessary to make it enforceable, and the
+   remaining provisions shall remain in full force. This Agreement is the
+   entire agreement between You and Licensor regarding the Software and
+   supersedes any prior understanding relating to its subject matter.
+
+Contact: elitelokesh@gmail.com
