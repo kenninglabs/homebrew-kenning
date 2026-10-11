@@ -214,15 +214,16 @@ claude mcp add --transport http kenning http://127.0.0.1:8082/mcp
 | `kenning mcp` (stdio) | One process per agent connection, talking JSON-RPC over stdio. | No network hop — the agent host spawns it directly as a child process, the transport Claude Code uses by default. |
 | Daemon `/mcp` (HTTP) | Share one always-on MCP endpoint across multiple agent connections. | The daemon already holds the warm index in memory/WAL cache, so a new connection doesn't pay the cold-start cost `kenning mcp` would. |
 
-**Tool availability differs by transport** — `kenning mcp` (stdio) exposes 19 tools; the daemon's
-`/mcp` (HTTP) exposes 16, since three tools that write to the knowledge substrate are stdio-only
+**Tool availability differs by transport** — `kenning mcp` (stdio) exposes 20 tools; the daemon's
+`/mcp` (HTTP) exposes 17, since three tools that write to the knowledge substrate are stdio-only
 (see below). Both share the same base set:
 
 - **Retrieval, on both transports** — `search_code`, `explore`, `ask`, `status`, `sync`,
   `staleness`
 - **Repo & hub management, on both transports** — `recall`, `repo_add`, `repo_delete`,
   `instructions_get`/`instructions_toggle_system`/`instructions_save_user`/
-  `instructions_delete_user`, `tools_list`/`tools_save_user`/`tools_delete_user`. Since one
+  `instructions_delete_user`, `tools_list`/`tools_save_user`/`tools_delete_user`,
+  `skills_list`. Since one
   daemon serves every registered hub at once, most of these accept a `hub_id` on the daemon to
   say which hub to act on — required for `repo_add`/`repo_delete`, optional (defaulting to the
   first registered hub) for the `instructions_*`/`tools_*` ones, and irrelevant for `recall`
@@ -316,15 +317,10 @@ codebase.
 ## Installing the desktop app
 
 Kenning.app is ad-hoc signed but not notarized by Apple, so macOS will block it on first
-launch. Easiest fix — install without the quarantine flag in the first place:
+launch. Clear the quarantine flag after installing:
 
 ```sh
-brew install --cask --no-quarantine kenning-ide
-```
-
-Already installed and blocked?
-
-```sh
+brew install --cask kenning-ide
 xattr -dr com.apple.quarantine /Applications/Kenning.app
 ```
 
