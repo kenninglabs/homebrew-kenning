@@ -5,7 +5,7 @@ class Kenning < Formula
   license :cannot_represent
 
   url "https://github.com/kenninglabs/homebrew-kenning/releases/download/v0.1.0/kenning-0.1.0-aarch64-apple-darwin.tar.gz"
-  sha256 "266c9c6a60c2aa06dc443e23a6a10fc438e400aa51b0bec0191766decb33890b"
+  sha256 "b7578d8faa228b7da4ca2deb2037f180734c70e7d3aa42d43a0c08d4d10a08bd"
 
   def install
     bin.install "kenning"
