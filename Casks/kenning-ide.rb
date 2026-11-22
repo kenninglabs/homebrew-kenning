@@ -1,6 +1,6 @@
 cask "kenning-ide" do
   version "0.1.0"
-  sha256 "8f823ab7a53bb6ec28a5b9cf9807624a6222d5ae92ed02f00754ba2014edd5b8"
+  sha256 "85833b44a838aba1a585abeba14a9115caf4d1015283de5b7cba3d3b662df3d7"
 
   url "https://github.com/kenninglabs/homebrew-kenning/releases/download/v0.1.0/Kenning-0.1.0.zip"
   name "Kenning"
